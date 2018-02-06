@@ -1,0 +1,20 @@
+{
+  "name": "mysql-rest",
+  "version": "1.0.0",
+  "description": "Software of Application with NodeJS, Express and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Daniel Alejo Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
